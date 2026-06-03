@@ -23,7 +23,7 @@ class order:
 ``` python
 class Order:
     def price(self):
-        retrun self.price_calculator.compute()
+        return new PriceCalculator(self).compute()
 
 class PriceCalculator:
     def __init__(self, order:Order):
@@ -32,8 +32,6 @@ class PriceCalculator:
         self.secondary_base_price = 0
         self.tertiary_base_price = 0
     def compute(self):
-        
-
         # Perform long computation
 
 ```
