@@ -20,12 +20,28 @@ Add To method < Create new method
 - Since trhe method name will describe it
 
 ##### Recipe 1
-[[[_para/_areas/Refactoring/Refactoring/Recipes/extract_method.md]]]
+[[Extract Method]]
 
 ###### Extract method
 
 #### Recipe 2
-[[_para/_areas/Refactoring/Refactoring/Recipes/Reduce Local Variables and Parameters Before Extracting a Method]]
+[[Reduce Local Variables and Parameters Before Extracting a Method]]
 
 #### Recipe 3
 [[Replace Method With Method Object]]
+#### Recipe 4
+[[Conditionals and Loops]]
+Conditional operators and loops are a good clue that code can be moved to a separate method.
+For conditionals, use [[Decompose Conditional]]. If loops are in the way, try [[Extract Method]].
+
+
+
+
+
+[Replace Method With Method Object]: <Recipes/Replace Method With Method Object.md> "Replace Method With Method Object"
+[Conditionals and Loops]: <Recipes/Conditionals and Loops.md> "Conditionals and Loops"
+
+[Extract Method]: <Recipes/Extract Method.md> "Extract Method"
+[Reduce Local Variables and Parameters Before Extracting a Method]: <Recipes/Reduce Local Variables and Parameters Before Extracting a Method.md> "Reduce Local Variables and Parameters Before Extracting a Method"
+
+[Decompose Conditional]: <Recipes/Decompose Conditional.md> "Decompose Conditional"
