@@ -51,3 +51,14 @@ RestartSec=5s
 
 
 So we know the file to edit is /etc/cloudflared/config.yml
+
+- When trying to edit, /etc/cloudflared/config.yml
+W10: Warning: Changing a readonly file
+
+
+So i instead edited 
+ ~/.cloudflared/config.yml
+
+ But that didnt work
+ so i just copied it over
+ 
