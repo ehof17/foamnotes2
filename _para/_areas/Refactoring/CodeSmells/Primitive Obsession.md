@@ -24,6 +24,9 @@ If type code doesn't affect behavior, replace it with class.
 If type affects program behavior, try to use subclasses.
 If cannot use subclasses, state strat
 
+#### Recipe 4
+[[Replace Array with Object]]
+
 
 
 [Replace Data Value with Object ]: <../Recipes/Replace Data Value with Object .md> "Replace Data Value with Object"
