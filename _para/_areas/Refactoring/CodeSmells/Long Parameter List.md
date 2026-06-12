@@ -1,3 +1,4 @@
+[[Bloater]]
 # Long Parameter list
 - More than 3 or for per method
 
@@ -26,3 +27,4 @@
 [Preserve Whole Object]: <../Recipes/Preserve Whole Object.md> "Preserve Whole Object.mb"
 
 [Introduce Parameter Object]: <../Recipes/Introduce Parameter Object.md> "Introduce Parameter Object"
+[Bloater]: Bloater.md "Bloaters"

@@ -1,3 +1,4 @@
+[[Bloater]]
 # Data clumps
 - Sometimes different parts of code contain identical groups of variables (Like db connection params). These should be made into their own classes
 

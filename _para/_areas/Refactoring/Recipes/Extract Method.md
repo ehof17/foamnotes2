@@ -41,3 +41,47 @@ def getProperties(user):
 
 
 ```
+
+
+```python
+class Order:
+    def calculate_total(self):
+        total = 0
+        for product in self.get_products():
+            total += product.quantity * product.price
+        match self.user.get_country():
+            case "US":
+                return total * 0.85
+            case "RU":
+                return total * 0.75
+            case "CN":
+                return total * 0.9
+            case _:
+                return total        
+```
+
+
+```python
+class Order:
+    def calculate_total(self):
+        total = 0
+
+        for product in self.get_products():
+            total += product.quantity * product.price
+
+        return self.apply_regional_discounts(total)
+
+    def apply_regional_discounts(self, total):
+        match self.user.get_country():
+            case "US":
+                return total * 0.85
+            case "RU":
+                return total * 0.75
+            case "CN":
+                return total * 0.9
+            case _:
+                return total
+```
+
+
+

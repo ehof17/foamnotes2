@@ -1,7 +1,4 @@
-### Bloaters
-- Huge. Hard to work with
-- Usually don't crop up at a time, but increase over time. Will only get worse
-
+[[Bloater]]
 ### Long method
 - Too Many lines
 > In c# context: Any method that is longer than 10 lines should make you start asking questions
@@ -45,3 +42,4 @@ For conditionals, use [[Decompose Conditional]]. If loops are in the way, try [[
 [Reduce Local Variables and Parameters Before Extracting a Method]: <Recipes/Reduce Local Variables and Parameters Before Extracting a Method.md> "Reduce Local Variables and Parameters Before Extracting a Method"
 
 [Decompose Conditional]: <Recipes/Decompose Conditional.md> "Decompose Conditional"
+[Bloater]: Bloater.md "Bloaters"

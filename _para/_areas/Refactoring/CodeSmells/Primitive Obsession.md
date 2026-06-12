@@ -1,3 +1,4 @@
+[[Bloater]]
 # Primitive Obsession
 Use of primitives instead of small objects for simple tasks
 
@@ -36,3 +37,6 @@ If cannot use subclasses, state strat
 [Replace Type Code With Class]: <../Recipes/Replace Type Code With Class.md> "Replace Type Code With Class"
 [Replace Type Code with Subclasses]: <../Recipes/Replace Type Code with Subclasses.md> "Replace Type Code with Subclasses"
 [Replace Type Code With State-Strategy]: <../Recipes/Replace Type Code With State-Strategy.md> "Replace Type Code With State/Strategy"
+
+[Bloater]: Bloater.md "Bloaters"
+[Replace Array with Object]: <../Recipes/Replace Array with Object.md> "Replace Array with Object"

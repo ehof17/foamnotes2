@@ -1,3 +1,4 @@
+[[Bloater]]
 # Large Class
 
 ### Why? 
@@ -27,3 +28,5 @@
 
 [Extract Interface]: <../Recipes/Extract Interface.md> "Extract Interface"
 [Duplicate Observed Data]: <../Recipes/Duplicate Observed Data.md> "Duplicate Observed Data"
+
+[Bloater]: Bloater.md "Bloater"
