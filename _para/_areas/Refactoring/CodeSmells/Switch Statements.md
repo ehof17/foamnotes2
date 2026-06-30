@@ -1,3 +1,4 @@
+[[Object Orientation Abusers]]
 # Switch Statements
 - You have a complex switch operator or sequence of if Statements
 
@@ -47,3 +48,4 @@ If one of the conditional options is null, use [[Introduce Null Object]]
 [Replace Parameter with Explict Methods]: <../Recipes/Replace Parameter with Explict Methods.md> "Replace Parameter with Explict Methods"
 
 [Introduce Null Object]: <../Recipes/Introduce Null Object.md> "Introduce Null Object"
+[Object Orientation Abusers]: <Object Orientation Abusers.md> "Object Orientation Abusers"
