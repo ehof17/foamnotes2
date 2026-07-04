@@ -10,6 +10,7 @@ Things need different categories, and different categories need different proper
 - size
 - shirt/pants/short
 - willingToResell
+- picture
 
 3. Hobby
 - A way to make subcategories would be fire
