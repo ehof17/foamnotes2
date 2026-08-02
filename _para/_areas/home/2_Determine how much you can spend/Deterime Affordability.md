@@ -24,3 +24,4 @@ Gross monthly income x debt-to-income ratio (%) = maximum payment allowed for ho
 Generally, people who have good credit, a steady income and low debt can afford to buy a home that is two-and-a-half to three times their annual income.
 
 86000 * 3 = 258000
+
