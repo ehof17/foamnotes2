@@ -91,7 +91,7 @@ A basic causal effect is called the treatment effect. Its the outcome change if 
 
 #### Confounders
 > Critical problem in observational data
-Confounders are variables that affect both the treatment assignment and the outcome
+[[Confounders]] are variables that affect both the treatment assignment and the outcome
 - Can lead to spurious effects, like ice cream consumption and shark attacks having a relationship.
 - Ice cream doesn't cause shark attacks, but both can be affected by weather
 If item popularity is a confounder, it will lead to popularity bias.
@@ -115,3 +115,4 @@ Compared to experimental data, observational data only provides the info about w
 [Average Treatment Effect on the Treated Group]: <Average Treatment Effect on the Treated Group.md> "Average Treatment Effect on the Treated Group"
 [Conditional Average Treatment Effect]: <Conditional Average Treatment Effect.md> "Conditional Average Treatment Effect"
 [Individual Treatment Effect]: <Individual Treatment Effect.md> "Individual Treatment Effect"
+[Confounders]: Confounders.md "Confounders"
