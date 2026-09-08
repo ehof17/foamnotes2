@@ -54,7 +54,7 @@ If Y is the child of X, then X is the direct cause of Y. If Y is a descendant of
     - User click is the common outcome of both user interest and conformity.
 
 
-
+[[Uplift Modeling]]
 ### Water and monster
 - Traditionally, recsys recommend the items with the highest interaction probabilities. Most systems neglect the fact that the user may have taken the same action regardless. For example, if a recsys says that a user would buy a water bottle with 95% probability, and a monster 50%, typically it would recommend water bottle since it is more likely to be purchased from user. However, if the system does not recommend them water, they may have a 90% probability of being purchased, while the monster may have 20%. Recommending monster seems to be better choice because it has a higher lift of purchase probability, which may lead to more profit.
 
@@ -116,3 +116,4 @@ Compared to experimental data, observational data only provides the info about w
 [Conditional Average Treatment Effect]: <Conditional Average Treatment Effect.md> "Conditional Average Treatment Effect"
 [Individual Treatment Effect]: <Individual Treatment Effect.md> "Individual Treatment Effect"
 [Confounders]: Confounders.md "Confounders"
+[Uplift Modeling]: <Uplift Modeling.md> "Uplift Modeling"
