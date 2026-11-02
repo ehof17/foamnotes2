@@ -30,3 +30,7 @@ They all have question, evidence, and failure owner
 A useful task boundary makes purpose, failure, and evidence explicit
 
 > Publishing the result is a separate job, so we can repeat publishing without repeating the check
+
+A failure should explain which rule was broke. Running the same check on the same bad input will not fix it. the input needs to be fixed, or the rule adjusted.
+
+

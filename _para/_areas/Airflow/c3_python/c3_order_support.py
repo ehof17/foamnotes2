@@ -30,6 +30,7 @@ def reset_database() -> int:
             orders,
         )
         connection.commit()
+    return len(orders)
 def reset_landing_files() -> None:
     LANDING_DIR.mkdir(parents=True, exist_ok=True)
     LANDING_FLAG.unlink(missing_ok=True)

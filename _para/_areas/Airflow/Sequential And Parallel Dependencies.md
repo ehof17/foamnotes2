@@ -2,7 +2,7 @@
 
 When to sequence if you need to:
 - wait for a shared result
-- order a shared resource
+- order a shared resource, if they cant safely update them at the same task
 - stop work after a failure 
 
 
@@ -15,10 +15,10 @@ When to not sequence:
 ### Expose fan-out and fan-in
 
 - Source task supplies input that later task needs
-Fan out, several tasks depend on the same earlier task.
+**Fan out**, several tasks depend on the same earlier task.
 Once it wins, they can run at the same time if enough capacity is available
 
-Fan in, one task depends on several earlier tasks
+**Fan in**, one task depends on several earlier tasks
 - Like publishing may need 2 checks to finish
 - Both checks must succeed before publishing can start
 
