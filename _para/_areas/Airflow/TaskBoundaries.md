@@ -8,7 +8,7 @@ They all have question, evidence, and failure owner
 - Failure Owner Workflow author
 
 2. Input
-- Question:  What must arrive
+- Question:  What must arrive before it can start 
 - Evidence: Typed value or URI (Number or location)
 - Failure Owner: Upstream task
 
@@ -24,6 +24,7 @@ They all have question, evidence, and failure owner
 
 5. Retry
 - Question: Can it repeat safely
+  - If an attempt wrote a row, the next one must not write it again
 - Evidence: Idempotent boundary
 - Failure Owner: Service owner
 
